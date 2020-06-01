@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>GENESIS GLOBAL SCHOOL</h1>
+<hr>
+
+<h2>Promising Futures</h2>
+<p>Work hard and aim for the top.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Genesis-Global-School-Noida.jpg" alt="Mountains" style="width:100%">
+      <h3>Infrastructure and campus.</h3>
+      <p>very good campus. Our toilets are very clean(once a month when the guy cleans them).</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Genesis-Global-School-Noida.jpg" alt="Lights" style="width:100%">
+      <h3>Curriculum</h3>
+      <p>Bilkul Bakwas. Hum log IGCSE, CBSE OR IB CURRICULUM KA HATYAKAND KARKE UNKE MARE HUI SHARIR SE PUPPET BANATHE HEI.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Genesis-Global-School-Noida.jpg" alt="Nature" style="width:100%">
+      <h3>Food</h3>
+      <p>HUM APNE STUDENTS KO SABSE ACCHA KHANA KHILATHE HEI. APNA BODY WASTE LEKE CHAWAL AUR ROTI ME DALDETHE HEI. BAKI SAB DHABE KE DUMSTER SE AATHA HEI.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Genesis-Global-School-Noida.jpg" alt="Mountains" style="width:100%">
+      <h3>Teachers</h3>
+      <p>OUR BEST FEATURE. HUMARE TEACHERS ARE WELL-EDUCTAED(bhap 2 rs ki phd dukan se kharid lethe hei.) SAARE TIME GANJA PHUKTE HEI.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="Genesis-Global-School-Noida.jpg" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>We are not responsible for students failing. and if you try to mess with us we will sue you.</p>
+  <p>PAISE DO PAISE DO PAISE DO</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
